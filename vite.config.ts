@@ -14,6 +14,10 @@ export default defineConfig(({ mode }) => {
         alias: {
           '@': path.resolve(__dirname, '.'),
         }
+      },
+      base: mode === 'production' ? '/AI-company-landing-page/' : '/',
+      build: {
+        outDir: 'dist',
       }
     };
-});
+  });

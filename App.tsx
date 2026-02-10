@@ -15,6 +15,7 @@ import {
   PRODUCTS, GROWTH_DATA, AGENT_DATA 
 } from './constants';
 
+
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -97,9 +98,9 @@ function App() {
         {/* Background Image/Video Placeholder */}
         <div className="absolute inset-0 z-0">
            <img 
-            src="https://picsum.photos/1920/1080?grayscale&blur=2" 
-            alt="AI Abstract" 
-            className="w-full h-full object-cover opacity-40 scale-105 animate-[pulse_10s_ease-in-out_infinite]"
+            src="/assets/img/bg.jpeg"
+            alt="AI Technology Background" 
+            className="w-full h-full object-cover scale-105 animate-[pulse_10s_ease-in-out_infinite] transform rotate-180"
            />
            <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/20 to-black"></div>
         </div>

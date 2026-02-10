@@ -98,7 +98,7 @@ function App() {
         {/* Background Image/Video Placeholder */}
         <div className="absolute inset-0 z-0">
            <img 
-            src="/assets/img/bg.jpeg"
+            src="./assets/img/bg.jpeg"
             alt="AI Technology Background" 
             className="w-full h-full object-cover scale-105 animate-[pulse_10s_ease-in-out_infinite] transform rotate-180"
            />
